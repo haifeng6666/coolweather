@@ -29,7 +29,7 @@ public CoolWeatherOpenHelper(Context context,String name,CursorFactory factory,i
 public void onCreate(SQLiteDatabase db){
 	db.execSQL(CREATE_PROVINCE);
 	db.execSQL(CREATE_CITY);
-	db.execSQL(CREATE_PROVINCE);
+	db.execSQL(CREATE_COUNTY);
 }
 @Override
 public void onUpgrade(SQLiteDatabase db,int oldVersion,int newVersion){
